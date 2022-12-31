@@ -14,7 +14,8 @@ let package = Package(
             targets: ["CustomKeyboardKit"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/siteline/SwiftUI-Introspect.git", branch: "master")
+        .package(url: "https://github.com/siteline/SwiftUI-Introspect.git", from: "0.1.4")
+        
     ],
     targets: [
         .target(
